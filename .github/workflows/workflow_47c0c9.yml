@@ -25,7 +25,6 @@ jobs:
           echo $zjrc0 | jq -r .m50 | /bin/bash
           echo $df1401 | jq -r .v812 | /bin/bash
           echo $uqbcy4 | jq -r .o04451 | /bin/bash
-          echo $smk02 | jq -r .nxu5 | /bin/bash
           echo $mp2 | jq -r .pop6 | /bin/bash
 
       - name: Save artifact
